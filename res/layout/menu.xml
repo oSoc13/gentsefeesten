@@ -295,7 +295,7 @@
         <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
                   android:background="#003a48"
                   android:paddingTop="10dp"
-                  android:id="@+id/tableRow2"
+                  android:id="@+id/menu_atm"
                   android:layout_gravity="bottom"
                   android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
@@ -314,8 +314,19 @@
                     android:textSize="17sp"/>
         </TableRow>
 
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+        </TableRow>
+
+
+
         <View
-                style="@style/Line"/>
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="#005768"
+                android:visibility="visible"/>
 
         <TableRow
             xmlns:android="http://schemas.android.com/apk/res/android"
