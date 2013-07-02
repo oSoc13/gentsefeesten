@@ -40,8 +40,7 @@
             android:id="@+id/tabHost"
             android:layout_gravity="left|center_vertical"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:>
+            android:layout_marginRight="10dp">
 
 
         <LinearLayout
@@ -71,7 +70,6 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:baselineAligned="false"
-                        android:labelFor="list"
                         android:layout_marginTop="1dp">
 
                 </LinearLayout>
@@ -79,8 +77,7 @@
                 <LinearLayout
                         android:id="@+id/tab2"
                         android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:labelFor="Map">
+                        android:layout_height="fill_parent">
 
                 </LinearLayout>
 
