@@ -80,6 +80,10 @@ public class MenuList extends BaseActivity {
         goAbout.setId(13);
         goAbout.setOnClickListener(actionMenu);
 
+        TableRow goATM = (TableRow) findViewById(R.id.menu_atm);
+        goATM.setId(14);
+        goATM.setOnClickListener(actionMenu);
+
         super.onCreate(savedInstanceState);
     }
 
@@ -161,6 +165,10 @@ public class MenuList extends BaseActivity {
             case 13:
                 Intent about = new Intent(getBaseContext(), About.class);
                 startActivity(about);
+                break;
+            case 14:
+                Intent atm = new Intent(getBaseContext(), AtmMap.class);
+                startActivity(atm);
                 break;
         }
         }
